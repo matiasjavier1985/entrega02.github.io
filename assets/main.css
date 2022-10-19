@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section__container__index .row{
+    background-image: url(./img/audi.jpg);
+    background-size: cover;
+    height:30vh;
+}
+.img__ruedas{
+    background-image: url(./img/ruedas-y-neumaticos.jpg);
+    background-size: cover;
+    height:20vh;
+}
+.img__deportes{
+    background-image: url(./img/deporte-y-diseno.jpg);
+    background-size: cover;
+    height:20vh;
+}
+.img__transporte{
+    background-image: url(./img/transporte.jpg);
+    background-size: cover;
+    height:20vh;
+}
+.img__comunicacion{
+    background-image: url(./img/comunicacion.jpg);
+    background-size: cover;
+    height:20vh;
+}
+.img__flia{
+    background-image: url(./img/familia.jpg);
+    background-size: cover;
+    height:20vh;
+}
+.img__confort{
+    background-image: url(./img/confort-y-proteccion.jpg);
+    background-size: cover;
+    height:20vh;
+}
+@media screen and (max-width:320px) {
+    .section__container__index .row {
+        background-image: url(./img/audi-320.jpg);
+        background-size: cover;
+    }
+    .section__container__index .row p{
+        display: none;
+    }
+    .carousel img {
+        height:20vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .section__card{
+        align-items: center;
+    }
+    .section__modelos{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section__modelos .row{
+        justify-content: flex-end;
+    }
+}
